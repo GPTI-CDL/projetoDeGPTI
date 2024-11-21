@@ -1,0 +1,44 @@
+/* CSS HEX */:root{ 
+--plum-web: #d68fd6ff;
+--mint-green: #defff2ff;
+--outer-space: #464f51ff;
+--black: #000009ff;
+--aquamarine: #0ff4c6ff;
+}
+
+body{
+    background-color: var(--aquamarine);
+}
+
+.membrosTrabalho{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    /* justify-content: space-between; */
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.cardMembro{
+    background-color: var(--mint-green);
+    height: 350px;
+    width: 350px;
+    border: solid,6px,var(--outer-space);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomeMembro{
+    font-size: 16px;
+}
+
+.imgMembro{
+    border-radius: 12px;
+    border: 6px, solid, var(--outer-space);
+    height: 250px;
+    width: 250px;
+}
