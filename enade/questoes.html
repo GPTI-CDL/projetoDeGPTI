@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação de Gestão de Projetos - ADS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color:  #0ff4c6ff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .question h2 {
+            margin-bottom: 10px;
+        }
+        .question label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .question input[type="radio"] {
+            margin-right: 10px;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e7f7e7;
+            border: 1px solid #d4eed4;
+        }
+        #result span {
+            font-weight: bold;
+        }
+        .gabarito {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Avaliação de Gestão de Projetos - ADS</h1>
+        <form id="quizForm">
+            
+            <div class="question">
+                <h2>Questão 1: (Referência: ENADE 2017)</h2>
+                <p>Analise as seguintes afirmações sobre os processos de iniciação de um projeto:</p>
+                <p>I. A elaboração do Termo de Abertura do Projeto é uma das primeiras atividades realizadas na fase de iniciação.</p>
+                <p>II. O Termo de Abertura do Projeto define os objetivos do projeto, os stakeholders envolvidos e as premissas e restrições.</p>
+                <p>III. A fase de iniciação deve identificar e documentar os requisitos detalhados do projeto.</p>
+                <label><input type="radio" name="q1" value="a">a) I e II apenas.</label>
+                <label><input type="radio" name="q1" value="b">b) I e III apenas.</label>
+                <label><input type="radio" name="q1" value="c">c) II e III apenas.</label>
+                <label><input type="radio" name="q1" value="d">d) I, II e III.</label>
+            </div>
+            
+            <div class="question">
+                <h2>Questão 2:(Referência: ENADE 2014)</h2>
+                <p>No contexto de gerenciamento de escopo, a WBS (Work Breakdown Structure) é uma ferramenta essencial. Marque a alternativa que melhor descreve a função da WBS:</p>
+                <label><input type="radio" name="q2" value="a">a) Detalhar os recursos financeiros do projeto.</label>
+                <label><input type="radio" name="q2" value="b">b) Identificar os stakeholders do projeto.</label>
+                <label><input type="radio" name="q2" value="c">c) Estruturar o trabalho do projeto em componentes menores e mais gerenciáveis.</label>
+                <label><input type="radio" name="q2" value="d">d) Definir os riscos potenciais do projeto.</label>
+            </div>
+            
+            <div class="question">
+                <h2>Questão 3:(Referência: ENADE 2016)</h2>
+                <p>Durante a fase de planejamento de um projeto, é crucial definir o cronograma do projeto. Uma técnica comumente utilizada para desenvolver cronogramas é o Método do Caminho Crítico (CPM). Assinale a alternativa correta sobre o CPM:</p>
+                <label><input type="radio" name="q3" value="a">a) O CPM ignora a definição de atividades paralelas.</label>
+                <label><input type="radio" name="q3" value="b">b) No CPM, o caminho crítico é a sequência de atividades que determina a duração mínima do projeto.</label>
+                <label><input type="radio" name="q3" value="c">c) O CPM é utilizado apenas para projetos de curto prazo.</label>
+                <label><input type="radio" name="q3" value="d">d) Atividades no caminho crítico possuem folgas significativas.</label>
+            </div>
+            
+            <div class="question">
+                <h2>Questão 4:(Referência: ENADE 2018)</h2>
+                <p>Considere as seguintes técnicas de análise de riscos em projetos:</p>
+                <p>I. Brainstorming.</p>
+                <p>II. Delphi.</p>
+                <p>III. SWOT.</p>
+                <p>IV. Análise de Monte Carlo.</p>
+                <p>Quais dessas técnicas são qualitativas?</p>
+                <label><input type="radio" name="q4" value="a">a) I e II apenas.</label>
+                <label><input type="radio" name="q4" value="b">b) III e IV apenas.</label>
+                <label><input type="radio" name="q4" value="c">c) I, II e III apenas.</label>
+                <label><input type="radio" name="q4" value="d">d) II e IV apenas.</label>
+            </div>
+            
+            <div class="question">
+                <h2>Questão 5:(ENADE 2015)</h2>
+                <p>Em um projeto de desenvolvimento de software, o gerente de projetos deve estar atento às métricas de qualidade. Qual das seguintes métricas é comumente utilizada para medir a qualidade do código-fonte?</p>
+                <label><input type="radio" name="q5" value="a">a) Taxa de retorno sobre investimento (ROI).</label>
+                <label><input type="radio" name="q5" value="b">b) Densidade de defeitos.</label>
+                <label><input type="radio" name="q5" value="c">c) Tempo de resposta.</label>
+                <label><input type="radio" name="q5" value="d">d) Disponibilidade do sistema.</label>
+            </div>
+            
+            <div class="question">
+                <h2>Questão 6: (Referência: ENADE 2013)</h2>
+                <p>O gerenciamento de custos é uma área crucial na gestão de projetos. Qual das técnicas a seguir é utilizada para estimar os custos de um projeto?</p>
+                <label><input type="radio" name="q6" value="a">a) Análise SWOT.</label>
+                <label><input type="radio" name="q6" value="b">b) Técnica de PERT.</label>
+                <label><input type="radio" name="q6" value="c">c) Análise de valor agregado.</label>
+                <label><input type="radio" name="q6" value="d">d) Análise de Monte Carlo.</label>
+            </div>
+            
+            <div class="question">
+                <h2>Questão 7:(Referência: ENADE 2013)</h2>
+                <p>O Gerenciamento da Comunicação em projetos é essencial para o sucesso do projeto. Qual das seguintes atividades faz parte do processo de planejamento das comunicações?</p>
+                <label><input type="radio" name="q7" value="a">a) Identificação dos riscos do projeto.</label>
+                <label><input type="radio" name="q7" value="b">b) Definição das partes interessadas (stakeholders) do projeto.</label>
+                <label><input type="radio" name="q7" value="c">c) Desenvolvimento do plano de comunicação do projeto.</label>
+                <label><input type="radio" name="q7" value="d">d) Criação da estrutura analítica do projeto (WBS).</label>
+            </div>
+            
+            <div class="question">
+                <h2>Questão 8:(Referência: ENADE 2019)</h2>
+                <p>Na metodologia de gerenciamento de projetos Scrum, quem é responsável por maximizar o valor do trabalho da equipe de desenvolvimento?</p>
+                <label><input type="radio" name="q8" value="a">a) Scrum Master.</label>
+                <label><input type="radio" name="q8" value="b">b) Product Owner.</label>
+                <label><input type="radio" name="q8" value="c">c) Equipe de Desenvolvimento.</label>
+                <label><input type="radio" name="q8" value="d">d) Stakeholders.</label>
+            </div>
+            
+            <div class="question">
+                <h2>Questão 9:(Referência: ENADE 2019)</h2>
+                <p>Ao final de cada Sprint no Scrum, a equipe realiza uma cerimônia específica para refletir sobre o trabalho realizado e identificar melhorias para os próximos sprints. Essa cerimônia é conhecida como:</p>
+                <label><input type="radio" name="q9" value="a">a) Planejamento da Sprint.</label>
+                <label><input type="radio" name="q9" value="b">b) Reunião Diária.</label>
+                <label><input type="radio" name="q9" value="c">c) Revisão da Sprint.</label>
+                <label><input type="radio" name="q9" value="d">d) Retrospectiva da Sprint.</label>
+            </div>
+            
+            <div class="question">
+                <h2>Questão 10:(Referência: ENADE 2017)</h2>
+                <p>Em projetos ágeis, o conceito de "entrega contínua" é fundamental. Qual das seguintes afirmações melhor descreve esse conceito?</p>
+                <label><input type="radio" name="q10" value="a">a) Entrega contínua significa liberar o produto ao mercado somente após a conclusão do projeto.</label>
+                <label><input type="radio" name="q10" value="b">b) Entrega contínua envolve a integração contínua das funcionalidades desenvolvidas e prontas para uso frequente.</label>
+                <label><input type="radio" name="q10" value="c">c) Entrega contínua é um método de estimativa de custos em projetos ágeis.</label>
+                <label><input type="radio" name="q10" value="d">d) Entrega contínua foca na documentação detalhada antes do início do desenvolvimento.</label>
+            </div>
+
+            <button type="button" onclick="calculateScore()">Enviar</button>
+        </form>
+        <div id="result"></div>
+        <div class="gabarito">
+            <h2>Gabarito:</h2>
+            <p>1. a</p>
+            <p>2. c</p>
+            <p>3. b</p>
+            <p>4. c</p>
+            <p>5. b</p>
+            <p>6. d</p>
+            <p>7. c</p>
+            <p>8. b</p>
+            <p>9. d</p>
+            <p>10. b</p>
+        </div>
+    </div>
+    <script>
+        function calculateScore() {
+            let score = 0;
+            const form = document.getElementById('quizForm');
+            const resultDiv = document.getElementById('result');
+            const gabarito = document.querySelector('.gabarito');
+            const answers = {
+                q1: 'a',
+                q2: 'c',
+                q3: 'b',
+                q4: 'c',
+                q5: 'b',
+                q6: 'd',
+                q7: 'c',
+                q8: 'b',
+                q9: 'd',
+                q10: 'b'
+            };
+            
+            for (const [question, answer] of Object.entries(answers)) {
+                const userAnswer = form.elements[question].value;
+                if (userAnswer === answer) {
+                    score++;
+                }
+            }
+            
+            resultDiv.innerHTML = `<span>Você acertou ${score} de ${Object.keys(answers).length} questões.</span>`;
+            gabarito.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
