@@ -1,0 +1,126 @@
+/* CSS HEX */:root{ 
+    --plum-web: #d68fd6ff;
+    --mint-green: #defff2ff;
+    --outer-space: #464f51ff;
+    --black: #000009ff;
+    --aquamarine: rgb(15, 122, 244);
+    }
+    
+    body{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--aquamarine);
+        font-family: 'Montserrat',sans-serif;
+    }
+    
+    h1{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav {
+        background-color: var(--outer-space); /* Cor de fundo da barra */
+        width: 100%;
+        /* padding: 10px 0; */
+    }
+    
+    
+    .navegacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .navegacao a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 0 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    
+    .navegacao a:hover {
+        background-color: #555; /* Cor ao passar o mouse */
+        transform: scale(1.1);  /* Efeito de aumentar ao passar o mouse */
+    }
+    
+    .navegacao a.active {
+        background-color: #007bff; /* Cor para o item ativo */
+    }
+    
+    header{
+        color: var(--mint-green);
+        font-weight: 700;
+        font-style: italic;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--outer-space);
+        height: 60px;
+        width: 100%;
+    }
+    
+    .participantes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .membrosTrabalho{
+        /* margin-left: 20px; */
+        margin-right: 42.5px;
+        display: flex;
+        align-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style-type: none;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    
+    .cardMembro{
+        box-shadow: 6px 16px 30px rgba(53, 44, 44, 0.822);
+        background-color: var(--mint-green);
+        height: 350px;
+        width: 300px;
+        border-radius: 4px;
+        border: solid,2px,var(--outer-space);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nomeMembro{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .imgMembro{
+        border-radius: 4px;
+        border: 2px, solid, var(--outer-space);
+        height: 250px;
+        width: 250px;
+    }
+    
+    footer{
+        font-weight: 700;
+        font-style: italic;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--outer-space);
+        height: 60px;
+        width: 100%;
+        
+    }
